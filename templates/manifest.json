@@ -1,0 +1,112 @@
+{
+  "version": "10.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "CdkDemoStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CdkDemoStack.template.json"
+      },
+      "metadata": {
+        "/CdkDemoStack/MyEncryptedBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyEncryptedBucket9A8D2FE1",
+            "trace": [
+              "new Bucket (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/aws-s3/lib/bucket.ts:1331:22)",
+              "new CdkDemoStack (/Users/geetaghanti/cdk-demo/lib/cdk-demo-stack.ts:9:20)",
+              "Object.<anonymous> (/Users/geetaghanti/cdk-demo/bin/cdk-demo.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/geetaghanti/cdk-demo/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/geetaghanti/cdk-demo/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/geetaghanti/cdk-demo/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/geetaghanti/cdk-demo/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkDemoStack/DocumentBucketsNameExport": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DocumentBucketsNameExport",
+            "trace": [
+              "new CdkDemoStack (/Users/geetaghanti/cdk-demo/lib/cdk-demo-stack.ts:13:3)",
+              "Object.<anonymous> (/Users/geetaghanti/cdk-demo/bin/cdk-demo.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/geetaghanti/cdk-demo/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/geetaghanti/cdk-demo/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/geetaghanti/cdk-demo/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/geetaghanti/cdk-demo/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkDemoStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/private/synthesis.ts:201:5)",
+              "visit (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/private/synthesis.ts:197:5)",
+              "injectMetadataResources (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/stage.ts:180:23)",
+              "process.<anonymous> (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (/Users/geetaghanti/cdk-demo/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ],
+        "/CdkDemoStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/private/synthesis.ts:201:5)",
+              "visit (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/private/synthesis.ts:197:5)",
+              "injectMetadataResources (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/stage.ts:180:23)",
+              "process.<anonymous> (/Users/geetaghanti/cdk-demo/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (/Users/geetaghanti/cdk-demo/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "CdkDemoStack"
+    }
+  }
+}

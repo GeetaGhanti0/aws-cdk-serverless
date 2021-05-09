@@ -1,0 +1,17 @@
+{
+  "name": "service-api-document",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Geeta",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.61",
+    "aws-sdk": "^2.903.0"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.6"
+  }
+}
